@@ -11,20 +11,47 @@ body{
     padding-right: 3rem;
 }
 @media only screen and ((max-width: 1000px)) {
+  .navbar-brand{
+    width: 5rem;
+    height: 2rem;
+    float: left;
+   
+  }
 
 .mobile-menu .navbar-nav{
   display: flex;
  
   flex-direction: row;
   /* background-color: red; */
+
 }
 .nav-item{
-  padding-left: 2rem;
+
   color: #555;
 }
 
 
 }
+
+@media only screen and ((max-width: 700px) and (min-width:300px)) {
+
+  #jobid{
+    font-size: 1rem;
+    /* background-color: red; */
+  }
+  #searchid{
+    font-size: 1rem;
+  }
+  .static_box{
+    display: none;
+  }
+}
+@media only screen and ((min-width: 700px)) {
+ 
+  }
+
+
+
 @media only screen and ((min-width: 1000px)) {
 
   .mobile-menu .navbar-nav{
@@ -140,6 +167,7 @@ body{
   padding-top: 1rem;
 
 }
+
 .section1 .form-border{
   border: 1px solid gray;
   width: 45rem;
@@ -157,15 +185,17 @@ body{
 .section1-mobile input{
   border:none;
   width: 15rem;
+ 
 
 }
 
 .form-border-mobile{
   border: 1px solid gray;
-  width: 25rem;
+  width: 20rem;
   border-radius: .5rem;
   padding-bottom: .6rem;
   padding-top: .6rem;
+
   box-shadow: .1rem .1rem .3rem .3rem #E5E4E2;
 }
 .box{
